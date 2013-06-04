@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatpass - The High School Network</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Invite Only Mobile High School Network">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/custom.css" rel="stylesheet"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+ <img src="images/background.jpg" class="background">
+ <div class="container-fluid page-wrapper">
+  <div class="row-fluid">
+    <img id="logo" src="images/logo_dark.png">
+  </div>
+  <div class="row-fluid">
+    <div id="main">
+      <div class="hero-unit">
+        <h1 id="title">The Invite Only Mobile High School Network</h1>
+        <p id="description">Chatpass.me is a mobile social network exclusively for high school students. Teens can easily and connect with their friends, classmates or meet new friends through social polls and messaging.</p>
+        <div id="download-wrapper">
+          <a href="bit.ly/GetChatpassme"><img id="download" src="images/download.png"></a>
+        </div>
+      </div>
+      <div class="tabs">
+        <ul class="nav nav-tabs" id="myTab">
+          <li><a class="tab-item" href="#about-us">About Us</a></li>
+          <li><a class="tab-item" href="https://sites.google.com/site/chatpassme/home">Help/FAQ</a></li>
+          <li><a class="tab-item" href="mailto:chatpassme@gmail.com">Feedback</a></li>
+          <li><a class="tab-item" href="#jobs">Jobs</a></li>
+
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane" id="about-us">
+            <h2>Meet the Team</h2>
+            <p>
+              We are leaders in the youth media and tech space. We have worked for companies such as The Walt Disney Company, Facebook, Togetherville, Yahoo, Pearson Education and other leading youth focused companies.
+            </p>
+            <h2>Contact</h2>
+            <p>
+              Polymath Innovations, Inc.
+              <br>
+              530 North University Ave, Suite 6
+              <br>
+              Palo Alto, CA 94301
+              <br>
+              chatpassme@gmail.com
+            </p>
+          </div>
+          <div class="tab-pane" id="jobs">
+            We are looking for a select number of highly motivated high school students looking for real world experience in a fast paced Silicon Valley start-up. 
+            <br><br>
+            This summer we are offering a select number of students who will be in grades 9-11 for the school year starting in Fall 2013 to work as Chatpass.me interns in your school. This is a competitive internship and only a few students will be chosen to participate.
+            <br><br>
+            If you meet all the requirements, Chatpass.me an internship will guarantee you an awesome summer job to boost that college resume, and put you on a path to a great gig in technology and social media.
+
+            <h2>Responsibilities</h2>
+
+            Interested? Here are the deets on the internship:
+            <br>
+            <ul>
+              <li>Weekly check in with the Chatpass.me team or mentor</li>
+              <li>Email updates on progress made in user acquisition</li>
+              <li>Contribute content daily in the form of whistles</li>
+              <li>Test the app's virality</li>
+              <li>Provide feedback from your user base to the Chatpass.me HQ</li>
+              <li>Create and evaluate new content that will appear in the Chatpass.me network, on our Tumblr, Facebook and Twitter accounts</li>
+            </ul>
+
+            <h2>Perks!</h2>
+            <ul>
+              <li>You have the opportunity to be featured in our social media and blog</li>
+              <li>Upon successful completion of the internship, we will provide you with a letter of recommendation validating your time and contributions to building the Chatpass.me community</li>
+              <li>You must be able to attract 5 new users to download and register for the app to be eligible for the internship</li>
+              <li>Must have a strong personality, yet capable of working within a team towards a group goal</li>
+              <li>Humor is a plus, entertaining HQ while accomplishing these tasks will lead to massive brownie points</li>
+              <li>You will be assigned to a team, the captain of which will be one of our recent college grads, or a student currently enrolled in a top tier university.</li>
+            </ul>
+
+            <h2>Apply Now</h2>
+
+            If you are interested in pursuing a career in social media or mobile tech, and you are good at getting things done, this may be a great opportunity for you. If this is you, let's talk.
+            <br><br>
+            Deadline for the 2013 Chatpass.me Summer Intern program applications is Saturday, June 15th. 
+            <br><br>
+            <a href="http://bit.ly/ChatpassmeInternApp">Apply Here!</a>
+            <br><br>
+            Contact Chatpassme@gmail.com for any questions!
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div id="footer" class="navbar navbar-fixed-bottom">
+    <ul class="footer-ul">
+      <li><a href="#">Community Standards</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script>
+$(function () {
+  $('#myTab a').click(function (e) {
+    e.preventDefault();
+    $(this).tab('show');
+  })
+})
+</script>
+<script type="text/javascript">
+$("#title").fitText(1, {minFontSize: '42px', maxFontSize: '60px'});
+$(".tab-item").fitText(1, {minFontSize: '16px', maxFontSize: '18px'});
+</script>
+</body>
+</html>

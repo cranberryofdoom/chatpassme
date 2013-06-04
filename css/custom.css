@@ -1,0 +1,186 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+img.background {
+	min-height: 100%;
+	min-width: 1213px;
+	width: 100%;
+  height: auto;
+  position: fixed;
+	top: 0;
+  left: 0;
+}
+
+#main {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#myTab li {
+  width: 25%;
+  display: inline;
+}
+
+.footer-ul li {
+  display: inline;
+}
+
+@media screen and (max-width: 1024px) { 
+  img.background {
+    left: 50%;
+    margin-left: -607px;
+  }
+  #main {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 480px) { 
+  #main {
+    width: 100%;
+  }
+  .footer-ul li {
+  display: block;
+  padding: 5px 0 5px 0;
+ }
+ #myTab li {
+  padding: 5px 0 5px 0;
+  width: 100%;
+  display: block;
+ }
+}
+
+.page-wrapper {
+	position: relative;
+  margin-bottom: 180px;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+#logo {
+  display: block;
+  padding: 20px 0 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 227px;
+  max-height: 67px;
+}
+
+#download-wrapper {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#download {
+  width: 164px;
+  height: 51px;
+}
+
+.hero-unit {
+  background-color: rgba(238, 238, 238, 0.75);
+  padding: 20px 40px 10px 40px;
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 0;
+}
+
+.hero-unit h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  display: inline-block;
+  width: 100%;
+  padding: 0 0 20px 0;
+} 
+
+.tabs {
+  background-color: rgba(238, 238, 238, .75);
+  border-radius: 0 0 6px 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#myTab {
+  text-align: justify;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+#myTab li a {
+  text-align: center;
+  color: rgb(51, 51, 51);
+  border: none;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs li {
+  margin-bottom: 0;
+}
+
+.nav-tabs .active a {
+  background-color: rgba(255, 255, 255, .75);
+  border-radius: 0;
+}
+
+.nav-tabs li a:hover {
+  background-color: rgba(255, 255, 255, .75);
+  border-radius: 0;
+}
+
+.nav-tabs li a:last-child {
+  margin-right: 0;
+}
+
+.tab-content {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, .75);
+  border-radius: 0 0 6px 6px;
+}
+
+.tab-pane {
+  padding: 20px 40px 20px 40px;
+}
+
+#description {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  width: 100%;
+  padding: 0 0 20px 0;
+}
+
+#footer {
+  background: url(../images/flier.png);
+  background-color: #099377;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.footer-ul {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+
+.footer-ul > li > a {
+  color: rgb(51, 51, 51);
+  text-shadow: none;
+  padding: 0 10px 0 10px;
+}
+
+.footer-ul > li > a:hover {
+  text-decoration: none;
+  color: rgb(91, 91, 91);
+}
