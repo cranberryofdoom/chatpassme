@@ -18,25 +18,27 @@
     <div id="main">
       <div class="hero-unit">
         <h1 id="title">The Invite Only Mobile High School Network</h1>
-        <p id="description">Chatpass.me is a mobile social network exclusively for high school students. Teens can easily and connect with their friends, classmates or meet new friends through social polls and messaging.</p>
+        <p id="description">
+          Chatpass.me is a mobile social network exclusively for high school students.
+          <br>
+          Teens can connect with their classmates or meet new friends through polls and messaging.</p>
         <div id="download-wrapper">
-          <a href="bit.ly/GetChatpassme"><img id="download" src="images/download.png"></a>
+          <a href="http://www.bit.ly/GetChatpassme"><img id="download" src="images/download.png"></a>
         </div>
       </div>
       <div class="tabs">
         <ul class="nav nav-tabs" id="myTab">
           <li><a class="tab-item" href="#about-us">About Us</a></li>
-          <li><a class="tab-item" href="https://sites.google.com/site/chatpassme/home">Help/FAQ</a></li>
-          <li><a class="tab-item" href="mailto:chatpassme@gmail.com">Feedback</a></li>
-          <li><a class="tab-item" href="#jobs">Jobs</a></li>
-
+          <li><a class="tab-item" href="#help">Help/FAQ</a></li>
+          <li><a class="tab-item" href="#feedback">Feedback</a></li>
+          <li><a class="tab-item" href="#internships">Internships</a></li>
         </ul>
 
         <div class="tab-content">
           <div class="tab-pane" id="about-us">
             <h2>Meet the Team</h2>
             <p>
-              We are leaders in the youth media and tech space. We have worked for companies such as The Walt Disney Company, Facebook, Togetherville, Yahoo, Pearson Education and other leading youth focused companies.
+              We are leaders in the youth media and tech space. We have worked for companies such as The Walt Disney Company, Facebook, Togetherville, Yahoo!, Pearson Education and other leading youth focused companies.
             </p>
             <h2>Contact</h2>
             <p>
@@ -49,12 +51,19 @@
               chatpassme@gmail.com
             </p>
           </div>
-          <div class="tab-pane" id="jobs">
+          <div class="tab-pane" id="internships">
             We are looking for a select number of highly motivated high school students looking for real world experience in a fast paced Silicon Valley start-up. 
             <br><br>
-            This summer we are offering a select number of students who will be in grades 9-11 for the school year starting in Fall 2013 to work as Chatpass.me interns in your school. This is a competitive internship and only a few students will be chosen to participate.
+            This summer we are offering a select number of students who will be in grades 9 to 11 for the school year starting in Fall 2013 to work as Chatpass.me interns in your school. This is a competitive internship and only a few students will be chosen to participate.
             <br><br>
-            If you meet all the requirements, Chatpass.me an internship will guarantee you an awesome summer job to boost that college resume, and put you on a path to a great gig in technology and social media.
+            If you meet all the requirements Chatpass.me will guarantee you an awesome summer job, and help beef up that college resume, putting you on a path to a great gig in technology and social media.
+
+            <h2>Perks!</h2>
+            <ul>
+              <li>You have the opportunity to be featured in our social media and blog</li>
+              <li>Upon successful completion of the internship, we will provide you with a letter of recommendation validating your time and contributions to building the Chatpass.me community</li>
+              <li>You will be assigned to a team, the captain of which will be one of our recent college grads, or a student currently enrolled in a top tier university.</li>
+            </ul>
 
             <h2>Responsibilities</h2>
 
@@ -67,18 +76,10 @@
               <li>Test the app's virality</li>
               <li>Provide feedback from your user base to the Chatpass.me HQ</li>
               <li>Create and evaluate new content that will appear in the Chatpass.me network, on our Tumblr, Facebook and Twitter accounts</li>
-            </ul>
-
-            <h2>Perks!</h2>
-            <ul>
-              <li>You have the opportunity to be featured in our social media and blog</li>
-              <li>Upon successful completion of the internship, we will provide you with a letter of recommendation validating your time and contributions to building the Chatpass.me community</li>
               <li>You must be able to attract 5 new users to download and register for the app to be eligible for the internship</li>
               <li>Must have a strong personality, yet capable of working within a team towards a group goal</li>
               <li>Humor is a plus, entertaining HQ while accomplishing these tasks will lead to massive brownie points</li>
-              <li>You will be assigned to a team, the captain of which will be one of our recent college grads, or a student currently enrolled in a top tier university.</li>
             </ul>
-
             <h2>Apply Now</h2>
 
             If you are interested in pursuing a career in social media or mobile tech, and you are good at getting things done, this may be a great opportunity for you. If this is you, let's talk.
@@ -88,6 +89,13 @@
             <a href="http://bit.ly/ChatpassmeInternApp">Apply Here!</a>
             <br><br>
             Contact Chatpassme@gmail.com for any questions!
+          </div>
+          <div class="tab-pane" id="help">
+            <h2>Need help? <a href="https://sites.google.com/site/chatpassme/home">Go to our FAQ page!</a></h2>
+          </div>
+          <div class="tab-pane" id="feedback">
+            <h2>Have comments or questions?<a href="mailto:chatpassme@gmail.com"> Send us your feedback!</a></h2>
+            
           </div>
       </div>
     </div>
@@ -102,8 +110,17 @@
       <li><a href="#">Blog</a></li>
     </ul>
   </div>
+  <div class="fb-like" data-href="http://www.chatpass.me" data-send="true" data-width="450" data-show-faces="true"></div>
 </div>
 </div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.fittext.js"></script>
@@ -116,7 +133,7 @@ $(function () {
 })
 </script>
 <script type="text/javascript">
-$("#title").fitText(1, {minFontSize: '42px', maxFontSize: '60px'});
+$("#title").fitText(1, {minFontSize: '20px', maxFontSize: '34px'});
 $(".tab-item").fitText(1, {minFontSize: '16px', maxFontSize: '18px'});
 </script>
 </body>
